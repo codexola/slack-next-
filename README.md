@@ -120,7 +120,9 @@ slack-clone/
   |- bun.lockb
   |- components.json
   |- environment.d.ts
+  |- gitignore
   |- next.config.mjs
+  |- package-lock.json
   |- package.json
   |- postcss.config.mjs
   |- tailwind.config.ts
@@ -263,9 +265,9 @@ Useful resources and dependencies that are used in Slack Clone.
 
 - Thanks to CodeWithAntonio: https://codewithantonio.com/
 <!--- DEPENDENCIES_START --->
-- [@auth/core](https://www.npmjs.com/package/@auth/core): ^0.34.3
+- [@auth/core](https://www.npmjs.com/package/@auth/core): ^0.41.1
 - [@babel/eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser): ^7.28.6
-- [@convex-dev/auth](https://www.npmjs.com/package/@convex-dev/auth): ^0.0.65
+- [@convex-dev/auth](https://www.npmjs.com/package/@convex-dev/auth): ^0.0.91
 - [@radix-ui/react-alert-dialog](https://www.npmjs.com/package/@radix-ui/react-alert-dialog): ^1.1.15
 - [@radix-ui/react-avatar](https://www.npmjs.com/package/@radix-ui/react-avatar): ^1.1.11
 - [@radix-ui/react-dialog](https://www.npmjs.com/package/@radix-ui/react-dialog): ^1.1.15
@@ -279,7 +281,7 @@ Useful resources and dependencies that are used in Slack Clone.
 - [@types/node](https://www.npmjs.com/package/@types/node): ^20.19.33
 - [@types/react](https://www.npmjs.com/package/@types/react): ^18.3.28
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^18.3.7
-- [@vercel/config](https://www.npmjs.com/package/@vercel/config): ^0.0.33
+- [@vercel/config](https://www.npmjs.com/package/@vercel/config): ^0.0.32
 - [class-variance-authority](https://www.npmjs.com/package/class-variance-authority): ^0.7.1
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [cmdk](https://www.npmjs.com/package/cmdk): 1.1.1
@@ -287,17 +289,17 @@ Useful resources and dependencies that are used in Slack Clone.
 - [date-fns](https://www.npmjs.com/package/date-fns): ^4.1.0
 - [emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react): ^4.18.0
 - [eslint](https://www.npmjs.com/package/eslint): ^8
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 14.2.8
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): ^16.2.0
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): ^9.1.0
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): ^5.2.1
 - [jotai](https://www.npmjs.com/package/jotai): ^2.17.1
 - [lucide-react](https://www.npmjs.com/package/lucide-react): ^0.564.0
-- [next](https://www.npmjs.com/package/next): 15.5.10
+- [next](https://www.npmjs.com/package/next): ^16.2.0
 - [next-themes](https://www.npmjs.com/package/next-themes): ^0.4.6
-- [nuqs](https://www.npmjs.com/package/nuqs): ^1.20.0
+- [nuqs](https://www.npmjs.com/package/nuqs): ^2.8.9
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.6
 - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss): ^0.6.14
-- [quill](https://www.npmjs.com/package/quill): ^2.0.3
+- [quill](https://www.npmjs.com/package/quill): ^2.0.2
 - [react](https://www.npmjs.com/package/react): ^19.2.4
 - [react-dom](https://www.npmjs.com/package/react-dom): ^19.2.4
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.5.0
